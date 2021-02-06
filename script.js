@@ -1,4 +1,4 @@
-var countDownDate = new Date("Feb 6, 2021 14:55:00").getTime();
+var countDownDate = new Date("Feb 11, 2021 23:30:00").getTime();
 
 // Actualizează numărătoarea inversă în fiecare secundă.
 var x = setInterval(function() {
