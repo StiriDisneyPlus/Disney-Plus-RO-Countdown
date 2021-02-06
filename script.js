@@ -26,6 +26,6 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = '<div style="text-align:center; color: white"><font style="font-family: \'Lexend Mega\', sans-serif"> S-a lansat ! Vizionare plăcută ! </font></div>';
+    document.getElementById("countdown").innerHTML = '<div style="text-align:center; color: white"><font style="font-family: \'Lexend Mega\', sans-serif"> Încă nu a fost anunțată o dată. Reveniți pe pagină pentru update-uri. </font></div>';
   }
 }, 1000);
