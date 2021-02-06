@@ -1,0 +1,260 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.nav-box {
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+a {
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 10px;
+  background: blue;
+  color: white;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  transform: scale(1.1);
+}
+
+.text {
+  color: white;
+  font-family: 'Lexend Mega', sans-serif;
+  font-size: 15px;
+}
+
+.disney-plus-ro {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.disney-plus-ro-brands {
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  padding: 20px;
+}
+
+footer {
+    text-align: center;
+  }
+
+body {
+  padding: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .nav-box {
+    font-size: 10px;
+    text-align: center;
+    display: block;
+  }
+
+
+  .unitate {
+    font-size: 70%;
+  }
+
+  li {
+    margin: 20px;
+    font-size: 10px;
+    padding:
+  }
+
+  .disney-plus-ro-brands {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    padding: 20px;
+  }
+}
+
+.text {
+  text-align: center;
+  margin: 10px;
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .nav-box {
+    font-size: 15px;
+    text-align: center;
+    margin: 30px;
+  }
+
+  .unitate {
+    font-size: 90%;
+  }
+
+  li {
+    display: inline;
+    margin: 30px;
+  }
+
+  .disney-plus-ro-brands {
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  .nav-box {
+    font-size: 15px;
+    text-align: center;
+    margin: 30px;
+  }
+
+  .unitate {
+    font-size: 90%;
+  }
+
+  li {
+    display: inline;
+    margin: 30px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .nav-box {
+    font-size: 15px;
+    text-align: center;
+    margin: 30px;
+  }
+
+  .unitate {
+    font-size: 90%;
+  }
+
+  li {
+    display: inline;
+    margin: 30px;
+  }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  .nav-box {
+    font-size: 15px;
+    text-align: center;
+    margin: 30px;
+  }
+
+  .unitate {
+    font-size: 90%;
+  }
+
+  li {
+    display: inline;
+    margin: 30px;
+  }
+
+}
+
+
+@media (min-width: 1281px) {
+
+  .nav-box {
+    font-size: 15px;
+    text-align: center;
+    margin: 30px;
+  }
+
+  .unitate {
+    font-size: 90%;
+  }
+
+  li {
+    display: inline;
+    margin: 30px;
+  }
+
+}
