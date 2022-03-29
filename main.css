@@ -48,7 +48,7 @@ table {
 }
 
 body {
-  background-image: url('https://cnbl-cdn.bamgrid.com/assets/bae54b11b91b8ea86f6c34f7893cdcd90e52d674470bf3c9b2aa52b2f4780fb8/original');
+  background-image: url('//cnbl-cdn.bamgrid.com/assets/1859677598dc2480f56213e6794a4e62bc2015021aff5cb5fa100eaa993f11e0/original');
   overflow-x: hidden;
 }
 
@@ -159,7 +159,7 @@ body {
 @media (min-width: 481px) and (max-width: 767px) {
   
   body {
-     background-image: url('https://cnbl-cdn.bamgrid.com/assets/cb6110252cbe7dd5d7ebec52ba244404a56d8e8e48e6f4252e94a09cd02151ae/original');
+     background-image: url('//cnbl-cdn.bamgrid.com/assets/ac4d8368ba4e6b3f5eeb993eeeecac0a0210527bc95e67f17fffba1807a72a9c/original');
   }
 	
   .nav-box {
@@ -208,7 +208,7 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) {
   
   body {
-     background-image: url('https://cnbl-cdn.bamgrid.com/assets/cb6110252cbe7dd5d7ebec52ba244404a56d8e8e48e6f4252e94a09cd02151ae/original');
+     background-image: url('//cnbl-cdn.bamgrid.com/assets/bb8d33ade5e3046ec68d042009547df3a7b37556dc03b0e2902568f24a8d7e6f/original');
   }
 	
   .nav-box {
