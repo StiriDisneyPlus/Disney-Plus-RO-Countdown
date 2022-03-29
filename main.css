@@ -244,6 +244,10 @@ body {
     display: inline;
     margin: 30px;
   }
+	
+  body {
+    background-image: url('//cnbl-cdn.bamgrid.com/assets/1859677598dc2480f56213e6794a4e62bc2015021aff5cb5fa100eaa993f11e0/original');
+}
 
 }
 
@@ -264,5 +268,9 @@ body {
     display: inline;
     margin: 30px;
   }
+
+  body {
+    background-image: url('//cnbl-cdn.bamgrid.com/assets/1859677598dc2480f56213e6794a4e62bc2015021aff5cb5fa100eaa993f11e0/original');
+}
 
 }
