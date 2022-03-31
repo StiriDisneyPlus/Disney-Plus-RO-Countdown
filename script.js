@@ -26,6 +26,6 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = '<div style="text-align:center; color: white"><font style="font-family: \'Lexend Mega\', sans-serif"> Disney+ este acum disponibil în România. <br> <a href="https://www.disneyplus.com/">Abonați-vă acum.</a> </font></div>';
+    document.getElementById("countdown-box").innerHTML = '<div style="text-align:center; color: white"><font style="font-family: \'Lexend Mega\', sans-serif"> Disney+ este acum disponibil în România. <br> <a href="https://www.disneyplus.com/">Abonați-vă acum.</a> </font></div>';
   }
 }, 1000);
